@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Link</title>
+</head>
+<body>
+    <h1>Link</h1>
+    <h2>target</h2>
+    <!-- target속성은 기본값이 _self -->
+    <a href="./" target="_self">인덱스 현재탭에서 열기</a>
+    <a href="./" target="_blank">인덱스 새탭에서 열기</a>
+
+    <h2>Image Link</h2>
+    <a href="./">
+        <img src="../sample/image/hyunta.PNG" width="150px" alt="">
+    </a>
+
+    <img src="../sample/image/img1.PNG" width="200px" alt="" usemap="#map">
+    <map name="imgmap">
+        <!--
+            area
+                shape 영역모양 rect | circle | poly
+                coords 좌표 x1, y1, x2, y2
+                href링크
+                alt
+                target
+
+                https://www.image-map.net/ 이미지 쉽게 생성하는 사이트
+        -->
+        <area shape="rect" coords="0, 0, 100, 200" href="https://naver.com" alt="네이버 가격">
+        <area shape="rect" coords="100, 0, 200, 200" href="https://naver.com" alt="네이버 가격">
+
+    </map>
+
+    <h2>Bookmark (anchor)</h2>
+    <div>
+        <ul>
+            <li><a href="#content1">내용1</a></li>
+            <li><a href="#content2">내용2</a></li>
+            <li><a href="#content3">하이라이팅 북마크</a></li>
+            <!--#:~:text 하이라이팅 북마크-->
+            <li><a href="#:~:text=sit amet consectetur">하이라이팅 북마크</a></li>
+        </ul>
+    </div>
+    <!-- div>h3+(p>lorem)*2 -->
+    <div>
+        <h3 id="content1">내용1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur velit aspernatur et doloremque aliquid, voluptatibus ipsam maiores tempore porro praesentium earum placeat ipsa, enim eligendi beatae aliquam dolores architecto!</p>
+        <p>Quas eius voluptate ex velit fugiat placeat doloremque vero vitae, nobis praesentium reprehenderit eos enim porro dolores voluptatem omnis dolorum nostrum modi nam exercitationem suscipit veniam consectetur. Dolorum, temporibus quam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur velit aspernatur et doloremque aliquid, voluptatibus ipsam maiores tempore porro praesentium earum placeat ipsa, enim eligendi beatae aliquam dolores architecto!</p>
+        <p>Quas eius voluptate ex velit fugiat placeat doloremque vero vitae, nobis praesentium reprehenderit eos enim porro dolores voluptatem omnis dolorum nostrum modi nam exercitationem suscipit veniam consectetur. Dolorum, temporibus quam?</p>
+    </div>
+    <div>
+        <h3 id="content2">내용2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur velit aspernatur et doloremque aliquid, voluptatibus ipsam maiores tempore porro praesentium earum placeat ipsa, enim eligendi beatae aliquam dolores architecto!</p>
+        <p>Quas eius voluptate ex velit fugiat placeat doloremque vero vitae, nobis praesentium reprehenderit eos enim porro dolores voluptatem omnis dolorum nostrum modi nam exercitationem suscipit veniam consectetur. Dolorum, temporibus quam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur velit aspernatur et doloremque aliquid, voluptatibus ipsam maiores tempore porro praesentium earum placeat ipsa, enim eligendi beatae aliquam dolores architecto!</p>
+        <p>Quas eius voluptate ex velit fugiat placeat doloremque vero vitae, nobis praesentium reprehenderit eos enim porro dolores voluptatem omnis dolorum nostrum modi nam exercitationem suscipit veniam consectetur. Dolorum, temporibus quam?</p>
+    </div>
+    <div>
+        <h3 id="content3">내용3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur velit aspernatur et doloremque aliquid, voluptatibus ipsam maiores tempore porro praesentium earum placeat ipsa, enim eligendi beatae aliquam dolores architecto!</p>
+        <p>Quas eius voluptate ex velit fugiat placeat doloremque vero vitae, nobis praesentium reprehenderit eos enim porro dolores voluptatem omnis dolorum nostrum modi nam exercitationem suscipit veniam consectetur. Dolorum, temporibus quam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur velit aspernatur et doloremque aliquid, voluptatibus ipsam maiores tempore porro praesentium earum placeat ipsa, enim eligendi beatae aliquam dolores architecto!</p>
+        <p>Quas eius voluptate ex velit fugiat placeat doloremque vero vitae, nobis praesentium reprehenderit eos enim porro dolores voluptatem omnis dolorum nostrum modi nam exercitationem suscipit veniam consectetur. Dolorum, temporibus quam?</p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div>
+        <ul>
+            <li><a href="#content1">내용1</a></li>
+            <li><a href="#content2">내용2</a></li>
+            <li><a href="#content3">내용3</a></li>
+            <li><a href="#top">내용3</a></li>
+        </ul>
+    </div>
+</body>
+</html>
