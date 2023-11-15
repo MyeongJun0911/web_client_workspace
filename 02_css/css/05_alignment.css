@@ -1,0 +1,35 @@
+.parent{
+    background-color: bisque;
+    text-align: right;
+}
+/* parent의 하위 span 태그를 의미 */
+.parent span{
+    background-color: hotpink;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black; /* #rrggbb 단, 두 숫자가 같은 경우 줄여서 쓸수 있다. ex)rgb */
+    margin: 0 auto; 
+    /* center 위아래 좌우 */
+    /* margin: 0 auto; * */
+    /* right */
+    /* margin-left: auto; */
+    /* left */
+    /* margin-right: auto; */
+}
+
+
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 2px solid #000;
+    margin: 0 auto;
+    /* text-align: center; */
+    
+    /* 가운데(상하좌우) 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
