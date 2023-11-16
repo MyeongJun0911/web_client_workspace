@@ -16,8 +16,9 @@
 }
 #font2{
     font-family: 'Donggle', sans-serif;
+    /* 폰트 사이즈 기본값 16px */
     font-size: 48px;
-    /* 보통 font-weight 값은 400 */
+    /* font-weight - 300(light), 400(regular), 700( */
     font-weight: 400;
     font-style: italic;
     line-height: 48px;

@@ -1,0 +1,20 @@
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    caption-side: bottom;
+    /* 너비지정을 하지 않으면 셀 너비가 변함 */
+    width: 500px;
+    /* fixed설정을 하면 셀 너비 고정 */
+    table-layout: fixed; /* 테이블 너비고정 */
+    height: 500px;
+}
+
+/* 테이블과 셀은 분리해서 작성 */
+
+tn, td{
+    border: 1px solid #000;
+    padding: 10px 5px;
+    text-align: center;
+    /* display: table-cell;이 기본이기 때문에 vertical-align은 셀에서만 작용 */
+    vertical-align: middle;
+}
